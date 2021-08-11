@@ -1,0 +1,138 @@
+ .navigation{
+    height: 90px !important;
+    
+} 
+
+
+
+
+.nav-link{
+    color: rgba(245, 132, 3, 0.726) !important;
+    padding-left:10px !important;
+    padding-right: 10px !important;
+    
+    
+}
+
+.navbar-brand{
+    color: rgb(255, 153, 0)!important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+ .navbar-collapse{ 
+    /* background-color: #0d6efd !important; */
+    font-size: 21px;
+    font-weight:bold !important;
+} 
+
+
+
+/* banner */
+.banner{
+
+    height: 800px;
+    /* background-color:brown; */
+    background-image: url('http://img.taste.com.au/4XPFiEkj/taste/2016/11/top-50-cakes-image-2-66316-1.jpg');
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.banner_content{
+
+ background-color: rgba(230, 230, 28, 0.7);
+ display: flex;
+ align-items: center;
+ 
+}
+.padd{
+    padding: 30px;
+}
+
+.banner_title{
+    font-size: 60px;
+}
+/* banner end */
+
+/* css for abc  */
+
+.title{
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.abc{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.back{
+    background-color: rgb(245, 192, 114);
+}
+
+.my-card{
+    width: 400px !important;
+    margin-top: 30px !important;
+}
+
+
+
+
+/* ad banner  */
+
+.banner-ad{
+    height: 800px;
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2020%2F08%2F06%2F2628601_Apple_Apple_Butter_Pound_Cake_CoverTry_020-2000.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-content{
+
+    background-color: rgba(250, 17, 17, 0.856);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad_title{
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* css for mobile  */
+
+@media (max-width:500px) {
+
+    .banner-ad{
+        height: 500px;
+    }
+
+    .banner{
+        height: 600px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+

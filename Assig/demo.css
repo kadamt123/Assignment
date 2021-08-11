@@ -1,0 +1,15 @@
+
+.my-abc{
+     background-color:rgb(238, 215, 236);
+    height: 600px;
+}
+.block{
+    background-color: rgb(175, 47, 143);
+    height:auto;
+    min-height: 100px;
+}
+.row-1{
+    height: 150px;
+    background-color: rgb(138, 106, 131);
+    
+}
